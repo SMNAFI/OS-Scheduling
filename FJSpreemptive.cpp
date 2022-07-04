@@ -2,9 +2,7 @@
     using namespace std;
 
 struct Process {
-    int id;
-    int bt;
-    int art;
+    int id, bt, art;
 };
 
 int  main() {

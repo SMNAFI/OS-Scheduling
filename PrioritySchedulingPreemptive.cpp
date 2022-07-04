@@ -22,12 +22,6 @@ int main() {
     cin >> n;
     Process p[n];
 
-    // 1 0 3 3
-    // 2 1 6 4
-    // 3 3 1 9
-    // 4 2 2 7
-    // 5 4 4 8
-
     // 1 0 4 2 2 1 3 3 3 2 1 4 4 3 5 5 5 4 2 5
 
     cout << "Enter Process id, arrival time, burst time & priority: ";
@@ -47,11 +41,11 @@ int main() {
         sort(v.begin(), v.end(), comp);
 
         // After selecting and sorting processes
-        cout << "Current_time: " << current_time << '\n';
-        for(int i = 0; i < v.size(); i++) {
-            cout << "iD: " << v[i].id << " at: " << v[i].at << " bt: " << v[i].bt << " p: " << v[i].priority << '\n';
-        }
-        cout << '\n' << '\n';
+        // cout << "Current_time: " << current_time << '\n';
+        // for(int i = 0; i < v.size(); i++) {
+        //     cout << "iD: " << v[i].id << " at: " << v[i].at << " bt: " << v[i].bt << " p: " << v[i].priority << '\n';
+        // }
+        // cout << '\n' << '\n';
 
         // if any Process have been found
 

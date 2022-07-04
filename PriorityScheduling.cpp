@@ -6,7 +6,7 @@ struct Process {
 };
 
 bool comp(Process a, Process b) {
-    if(a.priority == b.priority && a.at == b.at)
+    if(a.priority == b.priority && a.at == b.at)  
         return a.id < b.id;
 
     else if(a.priority == b.priority)
@@ -21,12 +21,6 @@ int main() {
     cout << "Enter the number of processes: ";
     cin >> n;
     Process p[n];
-
-    // 1 0 3 3
-    // 2 1 6 4
-    // 3 3 1 9
-    // 4 2 2 7
-    // 5 4 4 8
 
     // 1 0 4 2 2 1 3 3 3 2 1 4 4 3 5 5 5 4 2 5
 
